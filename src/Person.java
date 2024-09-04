@@ -5,7 +5,7 @@ public class Person implements Serializable{
 
     private String name;
     private  LocalDate birthdate;
-   // private Float age = Float.valueOf(LocalDate.now().getYear() - this.birthdate.getYear() +(LocalDate.now().getDayOfYear() - this.birthdate.getDayOfYear())/365);
+   
 
     public Person (String name, LocalDate birthdate){
         this.name = name;
